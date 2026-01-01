@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// import { mockUsers } from './data'; // පස්සේ පාවිච්චි කරමු
+// import { mockUsers } from './data'; 
 
 function App() {
   const [isErrorMode, setIsErrorMode] = useState(false);
