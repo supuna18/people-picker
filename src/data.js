@@ -1,15 +1,7 @@
-// src/data.ts
-export interface User {
-  id: string;
-  name: string;
-  email: string;
-  role: string;
-  lastActive: string;
-  avatarUrl: string;
-}
+// src/data.js
 
-// Assign a 30 mock data 
-export const mockUsers: User[] = Array.from({ length: 30 }, (_, i) => ({
+// Mock data 30 
+export const mockUsers = Array.from({ length: 30 }, (_, i) => ({
   id: `u-${i + 1}`,
   name: `User ${i + 1}`, 
   email: `user${i + 1}@example.com`,
